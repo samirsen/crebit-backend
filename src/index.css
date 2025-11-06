@@ -1,0 +1,473 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Test Tiempos Fine Font */
+@font-face {
+    font-family: "Test Tiempos Fine";
+    src: url("https://db.onlinewebfonts.com/t/2822c165327bc333abd28afdc3e6717c.eot");
+    src: url("https://db.onlinewebfonts.com/t/2822c165327bc333abd28afdc3e6717c.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/2822c165327bc333abd28afdc3e6717c.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/2822c165327bc333abd28afdc3e6717c.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/2822c165327bc333abd28afdc3e6717c.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/2822c165327bc333abd28afdc3e6717c.svg#Test Tiempos Fine")format("svg");
+    font-display: swap;
+}
+
+/* Times New Roman Font - Local Hosting */
+@font-face {
+    font-family: "Times New Roman Local";
+    src: url("https://fonts.gstatic.com/s/timesnewroman/v1/times-new-roman-regular.woff2") format("woff2"),
+         url("https://fonts.gstatic.com/s/timesnewroman/v1/times-new-roman-regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Times New Roman Local";
+    src: url("https://fonts.gstatic.com/s/timesnewroman/v1/times-new-roman-bold.woff2") format("woff2"),
+         url("https://fonts.gstatic.com/s/timesnewroman/v1/times-new-roman-bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Times New Roman Local";
+    src: url("https://fonts.gstatic.com/s/timesnewroman/v1/times-new-roman-italic.woff2") format("woff2"),
+         url("https://fonts.gstatic.com/s/timesnewroman/v1/times-new-roman-italic.woff") format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Times New Roman Local";
+    src: url("https://fonts.gstatic.com/s/timesnewroman/v1/times-new-roman-bold-italic.woff2") format("woff2"),
+         url("https://fonts.gstatic.com/s/timesnewroman/v1/times-new-roman-bold-italic.woff") format("woff");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Local font declarations for Satoshi and Inter */
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-Regular.woff2') format('woff2'),
+       url('./assets/fonts/Inter-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-Medium.woff2') format('woff2'),
+       url('./assets/fonts/Inter-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-SemiBold.woff2') format('woff2'),
+       url('./assets/fonts/Inter-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-Bold.woff2') format('woff2'),
+       url('./assets/fonts/Inter-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Satoshi Font Family */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./assets/fonts/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./assets/fonts/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./assets/fonts/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Satoshi Variable Font Family */
+@font-face {
+  font-family: 'Satoshi Variable';
+  src: url('./assets/fonts/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Variable.woff2') format('woff2'),
+       url('./assets/fonts/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Variable.woff') format('woff'),
+       url('./assets/fonts/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Obviously Font Family */
+@font-face {
+  font-family: 'Obviously';
+  src: url('/fonts/fonnts.com-Obviously.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Obviously';
+  src: url('/fonts/fonnts.com-Obviously_Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Obviously';
+  src: url('/fonts/fonnts.com-Obviously_Blck.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tuition Payment Platform Design System - Trust-focused palette */
+
+@layer base {
+  :root {
+    --background: 210 40% 98%;
+    --foreground: 226 30% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 226 30% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 226 30% 15%;
+
+    /* Professional teal/green brand colors matching reference */
+    --primary: 180 45% 18%;
+    --primary-foreground: 0 0% 100%;
+    --primary-muted: 180 45% 95%;
+
+    /* Success - emerald green */
+    --success: 160 84% 39%;
+    --success-foreground: 0 0% 100%;
+    --success-muted: 160 30% 95%;
+
+    /* Warning - teal accent */
+    --warning: 174 65% 45%;
+    --warning-foreground: 0 0% 100%;
+    --warning-muted: 174 25% 95%;
+
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 226 30% 25%;
+
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 9% 46%;
+
+    --accent: 174 50% 96%;
+    --accent-foreground: 174 100% 29%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 174 100% 29%;
+
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(180 45% 18%), hsl(160 84% 39%));
+    --gradient-success: linear-gradient(135deg, hsl(160 84% 39%), hsl(180 45% 18%));
+    --gradient-hero: linear-gradient(135deg, hsl(180 45% 18%) 0%, hsl(160 84% 39%) 100%);
+    
+    /* Shadows */
+    --shadow-soft: 0 4px 20px -2px hsl(180 30% 70% / 0.15);
+    --shadow-card: 0 2px 8px -1px hsl(180 30% 70% / 0.12);
+    --shadow-button: 0 2px 4px -1px hsl(180 100% 10% / 0.25);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .dark {
+    --background: 226 30% 8%;
+    --foreground: 220 14% 96%;
+
+    --card: 226 30% 12%;
+    --card-foreground: 220 14% 96%;
+
+    --popover: 226 30% 12%;
+    --popover-foreground: 220 14% 96%;
+
+    --primary: 180 45% 18%;
+    --primary-foreground: 0 0% 100%;
+    --primary-muted: 180 50% 20%;
+
+    --success: 180 65% 40%;
+    --success-foreground: 0 0% 100%;
+    --success-muted: 180 30% 15%;
+
+    --warning: 180 45% 50%;
+    --warning-foreground: 0 0% 100%;
+    --warning-muted: 180 20% 15%;
+
+    --secondary: 226 20% 18%;
+    --secondary-foreground: 220 14% 96%;
+
+    --muted: 226 20% 18%;
+    --muted-foreground: 220 9% 65%;
+
+    --accent: 180 50% 20%;
+    --accent-foreground: 180 100% 15%;
+
+    --destructive: 0 84% 70%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 226 20% 18%;
+    --input: 226 20% 18%;
+    --ring: 180 100% 15%;
+
+    /* Dark mode gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(180 45% 18%), hsl(180 65% 40%));
+    --gradient-success: linear-gradient(135deg, hsl(180 65% 40%), hsl(180 45% 18%));
+    --gradient-hero: linear-gradient(135deg, hsl(180 45% 18%) 0%, hsl(180 65% 40%) 100%);
+    
+    /* Dark mode shadows */
+    --shadow-soft: 0 4px 20px -2px hsl(226 30% 0% / 0.3);
+    --shadow-card: 0 2px 8px -1px hsl(226 30% 0% / 0.25);
+    --shadow-button: 0 2px 4px -1px hsl(180 100% 15% / 0.35);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Satoshi', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Professional styling enhancements */
+@layer components {
+  .professional-card {
+    @apply bg-card/95 backdrop-blur-sm border border-border/30;
+    background: linear-gradient(135deg, hsl(var(--card)) 0%, hsl(var(--card)/0.98) 100%);
+    box-shadow: 
+      0 1px 3px 0 rgb(0 0 0 / 0.1),
+      0 1px 2px -1px rgb(0 0 0 / 0.1),
+      0 0 0 1px rgb(0 0 0 / 0.02);
+  }
+  
+  .elevated-card {
+    @apply professional-card;
+    transform: translateY(0);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .elevated-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 
+      0 10px 25px -3px rgb(0 0 0 / 0.1),
+      0 4px 6px -4px rgb(0 0 0 / 0.1),
+      0 0 0 1px rgb(0 0 0 / 0.03);
+  }
+  
+  .seamless-gradient-top {
+    background: linear-gradient(180deg, 
+      hsl(var(--background)) 0%,
+      hsl(var(--primary)/0.03) 25%,
+      hsl(var(--muted)/0.15) 50%,
+      hsl(var(--success)/0.03) 75%,
+      hsl(var(--background)) 100%);
+  }
+  
+  .seamless-gradient-middle {
+    background: linear-gradient(180deg,
+      hsl(var(--background)) 0%,
+      hsl(var(--muted)/0.2) 100%);
+  }
+  
+  .seamless-gradient-bottom {
+    background: linear-gradient(180deg,
+      hsl(var(--muted)/0.2) 0%,
+      hsl(var(--primary)/0.03) 25%,
+      hsl(var(--success)/0.05) 75%,
+      hsl(var(--background)) 100%);
+  }
+  
+  .glass-effect {
+    @apply backdrop-blur-md bg-card/80 border border-border/20;
+    box-shadow: 
+      0 8px 32px 0 rgb(0 0 0 / 0.08),
+      inset 0 1px 0 0 rgb(255 255 255 / 0.05);
+  }
+
+  .times-new-roman-italic {
+    font-family: "Times New Roman", Times, serif !important;
+    font-style: italic !important;
+    font-weight: 700 !important;
+  }
+
+  /* Slide-in animations for sign up page */
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideInRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .animate-slide-in-left {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideInLeft 1s ease-out forwards;
+  }
+
+  .animate-slide-in-right {
+    opacity: 0;
+    transform: translateX(100%);
+    animation: slideInRight 1.2s ease-out 0.4s forwards;
+  }
+
+  /* Additional animations for scholarship search */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+      max-height: 0;
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+      max-height: 500px;
+    }
+  }
+
+  .animate-fade-in-up {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 0.6s ease-out forwards;
+  }
+
+  .animate-slide-down {
+    animation: slideDown 0.4s ease-out forwards;
+  }
+
+  /* Falling coins animation - gravity effect */
+  .falling-coin {
+    position: absolute;
+    animation: coinFall linear infinite;
+  }
+
+  @keyframes coinFall {
+    0% {
+      top: -80px;
+      transform: rotate(0deg);
+      opacity: 0;
+    }
+    10% {
+      opacity: 0.3;
+    }
+    90% {
+      opacity: 0.3;
+    }
+    100% {
+      top: calc(100% + 80px);
+      transform: rotate(720deg);
+      opacity: 0;
+    }
+  }
+
+  /* Mobile-specific fixes for ForeignExchangeHero */
+  @media (max-width: 640px) {
+    .foreign-exchange-hero {
+      padding: 0.5rem !important;
+    }
+    
+    .foreign-exchange-hero .hero-container {
+      min-height: 450px !important;
+      padding: 0.75rem 0.25rem 1.5rem !important;
+    }
+    
+    .foreign-exchange-hero .calculator-card {
+      transform: scale(0.82) !important;
+      margin: -1rem auto !important;
+    }
+    
+    .foreign-exchange-hero .input-card {
+      height: 110px !important;
+      padding: 10px !important;
+    }
+    
+    .foreign-exchange-hero .input-text {
+      font-size: 1.5rem !important;
+    }
+    
+    .foreign-exchange-hero .swap-button {
+      width: 32px !important;
+      height: 32px !important;
+      border-width: 2px !important;
+    }
+    
+    .foreign-exchange-hero .swap-icon {
+      width: 12px !important;
+      height: 12px !important;
+    }
+  }
+}
